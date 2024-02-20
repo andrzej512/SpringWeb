@@ -3,7 +3,7 @@ package com.example.webstart.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;
-@JsonIgnoreProperties(value = { "active" })//why active no isActive ?
+@JsonIgnoreProperties(value = { "active" })
 public class Teacher {
     private Long id;
     String name;
