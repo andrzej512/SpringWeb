@@ -45,7 +45,6 @@ public class Teacher {
     }
 
     public void setName(String name) {
-        System.out.println("setter from teacher class");
         this.name = name;
     }
 

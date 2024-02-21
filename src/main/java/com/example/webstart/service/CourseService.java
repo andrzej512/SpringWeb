@@ -11,7 +11,6 @@ import java.util.List;
 @Service
 public class CourseService {
     private final List<Course> courses = new ArrayList<>();
-    private final boolean someBool = false;
 
     @PostConstruct
     public void initCourses() {
